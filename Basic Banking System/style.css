@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Blaka+Ink&family=Bungee+Spice&display=swap');
+
+html{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #6d597a;
+}
+
+/* splash screen css starts here  */
+#loading{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #e4eff2 url("https://giphy.com/gifs/shop-loading-reparexshop-ZO9b1ntYVJmjZlsWlm/fullscreen") no-repeat center center;
+    z-index: 99999;
+}
+/* splash screen css ends here  */
+
+/* navbar css starts here  */
+.bg-light{
+    background-color: #9bf7f7!important;
+}
+
+.navbar-brand{
+    font-family:'Bungee Spice' , cursive;
+    font-size: 2.5rem;
+    color: #ffffff!important;
+}
+
+.nav-link{
+    color: #000000!important;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.nav-link:hover{
+    background-color: #5ab831;
+    box-shadow: 4px 4px 10px rgba(195, 0, 255, 0.779);
+}
+/* navbar css ends here  */
+
+/* here content css starts here  */
+.hero-content{
+    height: 100vh;
+    background-color: #355070;
+    color: #ffffff;
+    padding: 3rem;
+    border-bottom-left-radius: 45rem;
+    border-bottom-right-radius: 45rem;
+    margin-bottom: 1vh;
+}
+
+.hero-img{
+    height: 70vh;
+    width: 100%;
+}
+
+@media only screen and (max-width: 766px) {
+    .hero-img {
+      display: none;
+    }
+}
+
+.get-started{
+    border-radius: 0.5rem;
+    padding: 1rem 2rem;
+    font-size: 162%;
+    background-color: #fff;
+    color: #000000!important;
+    transition: 0.3s;
+}
+
+.get-started:hover{
+    text-decoration: none;
+    background-color: #67d3f1;
+    box-shadow: 4px 4px 10px rgba(195, 0, 255, 0.779);
+    
+}
+/* here content css starts here  */
+
+/* get-started-buttons css starts here*/
+.get-started-content{
+    height: 60vh;
+    background-color: #65d8ff;
+    border-top-left-radius: 42rem;
+    border-top-right-radius: 42rem;
+    border-bottom-right-radius: 42rem;
+    border-bottom-left-radius: 42rem;
+}
+
+.get-started-content .row{
+    padding: 25vh 0;
+}
+
+.get-started-content a{
+    border-radius: 0.5rem;
+    padding: 1rem 2rem;
+    font-size: 162%;
+    background-color: #039be5;
+    color: #fff!important;
+    transition: 0.3s;
+}
+
+.get-started-content a:hover{
+    background-color: #040404;
+    text-decoration: none;
+}
+/* get-started-buttons css end here*/
+
+/* footer css starts here */
+footer{
+    background-color:  #f2e9e4;
+}
+
+.social-icons li{
+    list-style: none;
+    display: inline;
+    padding: 0.5rem;
+}
+
+.github{
+    color: #24292e;
+}
+
+.linkedin{
+    color: #005bb5;
+}
+
+.google{
+    color: #ff00e6;
+}
+/* footer css ends here  */
+
+#footerbar{
+    display:flex;
+    justify-content: space-around;
+    border-radius: 30px;
+    background-color: #f9bf74;
+    max-width: 100%;
+    margin-left: 2px;
+    padding: 20px;
+    font-size: large;
+    box-shadow: 0px 0px 10px black;
+}
